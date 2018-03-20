@@ -1,0 +1,178 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
+	color: #666;
+}
+.plat1{
+	width: 1349px;
+	height: 943px;
+}
+.plat2{
+	margin-top: 0px;
+	width: 1349px;
+	height: 110px;
+	background-image: url(./img/bg.jpg);
+	background-position: bottom;
+	background-repeat: repeat-x;
+}
+.plat3{
+	width: 830px;
+	height: 605px;
+	margin: 50px auto 50px;
+	/*border:1px solid red;*/
+}
+
+#jdlogo{
+	background-image: url(./img/jd.png);
+	width: 160px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 25px;
+    float: left;
+}
+
+.welcome{
+    height: 50px;
+    font-size: 24px;
+    color: #333;
+    margin-top: 28px;
+    padding-left: 30px;
+    line-height: 50px;
+    float: left;
+}
+/*.clear{
+	clear: both;
+}*/
+.accountholder{
+	font-size: 16px;
+    float: right;
+    margin-right: 40px;
+    margin-top: 30px;
+    color: #999;
+}
+
+.register_form{
+/*	margin-top: 100px;*/
+	width: 550px;
+	height: 605px;
+	/*display: block;*/
+	border-right: 1px solid #ddd;
+	float: left;
+}
+.inputbox{
+	width: 400px;
+	height: 54px;
+	border:1px solid #ddd;
+}
+.inputbox label{
+	margin-left: 20px;
+	margin-right: 36px;
+	/*实现两端对齐*/
+	text-align:justify;
+    text-align-last:justify;
+}
+.inputbox input{
+	border: none;
+	outline: none;
+	line-height: 54px;
+	font-size: 14px;
+	padding-left: 12px;
+}
+.gap{
+	width: 400px;
+	height: 32px;
+}
+.registerbutton{
+	width: 400px;
+	height: 54px;
+	color: white;
+	background-color: red;
+}
+.plat3 .company{
+	width: 160px;
+	height: 61px;
+	border-bottom: solid 1px #ddd;
+	float: right;
+/*	margin-top: 0px;*/
+}
+.plat3 .company .companylogo{
+	width: 30px;
+    height: 29px;
+	background-image: url(./img/jd.png);
+	background-position-x: 0px;
+    background-position-y: -50px;
+    display: inline-block;
+}
+.plat3 .company a{
+	color: #666;
+	text-decoration: none;
+	margin-left: 15px;
+}
+.plat3 .company a:hover, .plat3 .customer a:hover{
+	color: #000;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+
+.plat3 .customer{
+	width: 160px;
+	height: 61px;
+/*	border: solid 1px #ddd;*/
+	float: right;
+	margin-top:32px;
+}
+.plat3 .customer .customerlogo{
+	width: 30px;
+    height: 29px;
+	background-image: url(./img/jd.png);
+	background-position-x: -50px;
+    background-position-y: -50px;
+    display: inline-block;
+}
+.plat3 .customer a{
+	color: #666;
+	text-decoration: none;
+	margin-left: 15px;
+	float: right;
+}
+.footer{
+	width: 1210px;
+	height: 110px;
+	border-top: 1px solid #ddd;
+	font-size: 12px;
+	margin: 0 auto;
+	text-align: center;
+}
+.footer ul{
+	padding-top: 30px;
+    padding-bottom: 15px;
+    display: inline;
+    text-align: center;
+}
+.footer li{
+	color: #999;
+    list-style-type: none;
+    float: left;
+}
+.footer li a{
+	color: #999;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.footer li a:hover{
+	text-decoration: underline;
+}
+.footer .copyright{
+	margin-top: 30px;
+	width: 1210px;
+	height: 21px;
+	font-size: 12px;
+    text-align: center;
+    float: bottom;
+    display: block;
+    color: #999;
+}
